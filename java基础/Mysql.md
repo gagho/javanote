@@ -87,7 +87,7 @@ mysql数据类型
 
 注意事项：
 
-1. int(5)做填充0的数据时，可以使用属性**UNSIGNED ZEROFILL ，这样插入数据为12时，实际存储为00012
+1. int(5)做填充0的数据时，可以使用属性**UNSIGNED ZEROFILL **，这样插入数据为12时，实际存储为00012
 2. varchar存储的内容超出长度后会被截断（一般java中sql会报错）
 3. 对于经常变更的数据来说，char比varchar更好，因为char不容易产生碎片
 4. 非常短的列，char比varchar更有效率
